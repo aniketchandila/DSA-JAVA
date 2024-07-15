@@ -1,3 +1,4 @@
+//import Scanner class
 import java.util.Scanner;
 
 public class calculator {
@@ -9,6 +10,7 @@ public class calculator {
     char c=sc.next().charAt(0);
     System.out.println("enter the second number");
     int b=sc.nextInt();
+        //applying switches on operators
     switch(c){
         case '+' :System.out.println(a+b);
                 break;
